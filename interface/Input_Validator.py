@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class Validator(ABC):
-    @abstractmethod
+    @abstractmethod # this is the core syntax said this is have to be interface
     def validate(self, input: str) -> bool:
         pass
 
